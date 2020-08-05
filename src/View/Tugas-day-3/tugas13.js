@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ItemBuahList from "./ItemBuah.js";
 
 class HargaBuah extends Component {
   constructor(props) {
@@ -128,9 +129,7 @@ class HargaBuah extends Component {
             {this.state.arrDataHargaBuah.map((el, index) => {
               return (
                 <tr>
-                  <td>{el.nama}</td>
-                  <td>{el.harga}</td>
-                  <td>{el.berat / 1000 + " kg"}</td>
+                  <ItemBuahList item={el} key={index} />
                   <button onClick={this.handleEdit} value={index}>
                     Edit
                   </button>
