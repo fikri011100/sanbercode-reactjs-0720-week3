@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
-import HargaBuah from "./View/Tugas-day-1/tugas11.js";
-import CountDown from "./View/Tugas-day-2/tugas12.js";
-import HargaBuahCRUD from "./View/Tugas-day-3/tugas13.js";
+import HargaBuah from "./View/TugasDay1/tugas11.js";
+import CountDown from "./View/TugasDay2/tugas12.js";
+import HargaBuahCRUD from "./View/TugasDay3/tugas13.js";
 import Timer from "./Component/Timer.js";
-import HargaBuahDay14 from "./View/Tugas-day-4/tugas14.js";
+import HargaBuahDay14 from "./View/TugasDay4/tugas14.js";
 import "./App.css";
+import Tugas15Routes from "./View/TugasDay5/Tugas15Routes.js";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <HargaBuah />
       <h1>Tugas day 2</h1> */}
       {/* <HargaBuahCRUD /> */}
-      <HargaBuahDay14 />
+      {/* <HargaBuahDay14 /> */}
+      <Tugas15Routes />
     </div>
   );
 }
